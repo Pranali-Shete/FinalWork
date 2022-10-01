@@ -1,0 +1,44 @@
+package day3_operators_arithmetic;
+
+public class Arithmetic_operator_increment {
+
+	public static void main(String[] args) {
+// Increment ( sign of Increment  "++")
+		
+		//Example:- 1		
+
+				
+		int a=11;
+		System.out.println(a);  // Ans will be 11
+						
+//-----------------------------------------------------------------------------------------------------		
+
+		//Example:- 2		
+
+		
+				int b=11;
+				b++;
+				System.out.println(b);  // Ans will be 12    ( 11 + 1)
+				
+//-----------------------------------------------------------------------------------------------------		
+
+		//Example:- 3		
+
+				
+				int c=11;
+				c=c+2;
+				System.out.println(c);  // Ans will be 13    ( value of c is 11 + 2 = 13)
+				
+	
+//-----------------------------------------------------------------------------------------------------		
+
+		//Example:- 4		
+
+						
+				int d=50;
+				d=d+b;
+				System.out.println(d);  // Ans will be 62    ( value of d is 50 + value of b(12) = 62)				
+				
+	}
+
+}
